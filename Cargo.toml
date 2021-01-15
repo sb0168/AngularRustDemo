@@ -1,0 +1,14 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+applications = { path = "./applications" }
+async-std = "1"
+
+[workspace]
+
+[[bin]]
+name = "backend"
+path = "src/bin/main.rs"
